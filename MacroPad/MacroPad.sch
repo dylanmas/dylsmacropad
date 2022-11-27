@@ -772,261 +772,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="USB4085-GF-A_REVA4">
-<packages>
-<package name="GCT_USB4085-GF-A_REVA4">
-<text x="-5.025" y="7.92" size="1.27" layer="25" ratio="13" rot="SR0">&gt;NAME</text>
-<text x="-5.025" y="6.315" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
-<wire x1="-4.47" y1="-1.74" x2="10.5" y2="-1.74" width="0.1" layer="51"/>
-<text x="5.315" y="-1.57" size="0.8128" layer="51">PCB EDGE</text>
-<wire x1="-4.47" y1="4.92" x2="4.47" y2="4.92" width="0.1" layer="51"/>
-<wire x1="4.47" y1="4.92" x2="4.47" y2="-4.25" width="0.1" layer="51"/>
-<wire x1="4.47" y1="-4.25" x2="-4.47" y2="-4.25" width="0.1" layer="51"/>
-<wire x1="-4.47" y1="-4.25" x2="-4.47" y2="-1.74" width="0.1" layer="51"/>
-<wire x1="-4.47" y1="-1.74" x2="-4.47" y2="4.92" width="0.1" layer="51"/>
-<wire x1="-4.47" y1="-1.39" x2="-4.47" y2="-1.74" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-1.74" x2="4.47" y2="-1.74" width="0.2" layer="21"/>
-<wire x1="4.47" y1="-1.74" x2="4.47" y2="-1.39" width="0.2" layer="21"/>
-<wire x1="-5.025" y1="5.17" x2="5.025" y2="5.17" width="0.05" layer="39"/>
-<wire x1="5.025" y1="5.17" x2="5.025" y2="-4.5" width="0.05" layer="39"/>
-<wire x1="5.025" y1="-4.5" x2="-5.025" y2="-4.5" width="0.05" layer="39"/>
-<wire x1="-5.025" y1="-4.5" x2="-5.025" y2="5.17" width="0.05" layer="39"/>
-<wire x1="-4.025" y1="0.4" x2="-4.025" y2="-0.4" width="0" layer="46"/>
-<wire x1="-4.025" y1="-0.4" x2="-4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
-<wire x1="-4.325" y1="-0.7" x2="-4.625" y2="-0.4" width="0" layer="46" curve="-90"/>
-<wire x1="-4.625" y1="-0.4" x2="-4.625" y2="0.4" width="0" layer="46"/>
-<wire x1="-4.625" y1="0.4" x2="-4.325" y2="0.7" width="0" layer="46" curve="-90"/>
-<wire x1="-4.325" y1="0.7" x2="-4.025" y2="0.4" width="0" layer="46" curve="-90"/>
-<polygon width="0.01" layer="29">
-<vertex x="-3.775" y="0.4"/>
-<vertex x="-3.775" y="-0.4" curve="-90"/>
-<vertex x="-4.325" y="-0.95" curve="-90"/>
-<vertex x="-4.875" y="-0.4"/>
-<vertex x="-4.875" y="0.4" curve="-90"/>
-<vertex x="-4.325" y="0.95" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-3.875" y="0.4"/>
-<vertex x="-3.875" y="-0.4" curve="-90"/>
-<vertex x="-4.325" y="-0.85" curve="-90"/>
-<vertex x="-4.775" y="-0.4"/>
-<vertex x="-4.775" y="0.4" curve="-90"/>
-<vertex x="-4.325" y="0.85" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="30">
-<vertex x="-4.875" y="0.4"/>
-<vertex x="-4.875" y="-0.4" curve="90"/>
-<vertex x="-4.325" y="-0.95" curve="90"/>
-<vertex x="-3.775" y="-0.4"/>
-<vertex x="-3.775" y="0.4" curve="90"/>
-<vertex x="-4.325" y="0.95" curve="90"/>
-</polygon>
-<polygon width="0.01" layer="16">
-<vertex x="-4.775" y="0.4"/>
-<vertex x="-4.775" y="-0.4" curve="90"/>
-<vertex x="-4.325" y="-0.85" curve="90"/>
-<vertex x="-3.875" y="-0.4"/>
-<vertex x="-3.875" y="0.4" curve="90"/>
-<vertex x="-4.325" y="0.85" curve="90"/>
-</polygon>
-<wire x1="4.625" y1="0.4" x2="4.625" y2="-0.4" width="0" layer="46"/>
-<wire x1="4.625" y1="-0.4" x2="4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
-<wire x1="4.325" y1="-0.7" x2="4.025" y2="-0.4" width="0" layer="46" curve="-90"/>
-<wire x1="4.025" y1="-0.4" x2="4.025" y2="0.4" width="0" layer="46"/>
-<wire x1="4.025" y1="0.4" x2="4.325" y2="0.7" width="0" layer="46" curve="-90"/>
-<wire x1="4.325" y1="0.7" x2="4.625" y2="0.4" width="0" layer="46" curve="-90"/>
-<polygon width="0.01" layer="29">
-<vertex x="4.875" y="0.4"/>
-<vertex x="4.875" y="-0.4" curve="-90"/>
-<vertex x="4.325" y="-0.95" curve="-90"/>
-<vertex x="3.775" y="-0.4"/>
-<vertex x="3.775" y="0.4" curve="-90"/>
-<vertex x="4.325" y="0.95" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="4.775" y="0.4"/>
-<vertex x="4.775" y="-0.4" curve="-90"/>
-<vertex x="4.325" y="-0.85" curve="-90"/>
-<vertex x="3.875" y="-0.4"/>
-<vertex x="3.875" y="0.4" curve="-90"/>
-<vertex x="4.325" y="0.85" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="30">
-<vertex x="3.775" y="0.4"/>
-<vertex x="3.775" y="-0.4" curve="90"/>
-<vertex x="4.325" y="-0.95" curve="90"/>
-<vertex x="4.875" y="-0.4"/>
-<vertex x="4.875" y="0.4" curve="90"/>
-<vertex x="4.325" y="0.95" curve="90"/>
-</polygon>
-<polygon width="0.01" layer="16">
-<vertex x="3.875" y="0.4"/>
-<vertex x="3.875" y="-0.4" curve="90"/>
-<vertex x="4.325" y="-0.85" curve="90"/>
-<vertex x="4.775" y="-0.4"/>
-<vertex x="4.775" y="0.4" curve="90"/>
-<vertex x="4.325" y="0.85" curve="90"/>
-</polygon>
-<wire x1="-4.025" y1="4.13" x2="-4.025" y2="2.63" width="0" layer="46"/>
-<wire x1="-4.025" y1="2.63" x2="-4.325" y2="2.33" width="0" layer="46" curve="-90"/>
-<wire x1="-4.325" y1="2.33" x2="-4.625" y2="2.63" width="0" layer="46" curve="-90"/>
-<wire x1="-4.625" y1="2.63" x2="-4.625" y2="4.13" width="0" layer="46"/>
-<wire x1="-4.625" y1="4.13" x2="-4.325" y2="4.43" width="0" layer="46" curve="-90"/>
-<wire x1="-4.325" y1="4.43" x2="-4.025" y2="4.13" width="0" layer="46" curve="-90"/>
-<polygon width="0.01" layer="1">
-<vertex x="-3.875" y="4.13"/>
-<vertex x="-3.875" y="2.63" curve="-90"/>
-<vertex x="-4.325" y="2.18" curve="-90"/>
-<vertex x="-4.775" y="2.63"/>
-<vertex x="-4.775" y="4.13" curve="-90"/>
-<vertex x="-4.325" y="4.58" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-3.775" y="4.13"/>
-<vertex x="-3.775" y="2.63" curve="-90"/>
-<vertex x="-4.325" y="2.08" curve="-90"/>
-<vertex x="-4.875" y="2.63"/>
-<vertex x="-4.875" y="4.13" curve="-90"/>
-<vertex x="-4.325" y="4.68" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="16">
-<vertex x="-4.775" y="4.13"/>
-<vertex x="-4.775" y="2.63" curve="90"/>
-<vertex x="-4.325" y="2.18" curve="90"/>
-<vertex x="-3.875" y="2.63"/>
-<vertex x="-3.875" y="4.13" curve="90"/>
-<vertex x="-4.325" y="4.58" curve="90"/>
-</polygon>
-<polygon width="0.01" layer="30">
-<vertex x="-4.875" y="4.13"/>
-<vertex x="-4.875" y="2.63" curve="90"/>
-<vertex x="-4.325" y="2.08" curve="90"/>
-<vertex x="-3.775" y="2.63"/>
-<vertex x="-3.775" y="4.13" curve="90"/>
-<vertex x="-4.325" y="4.68" curve="90"/>
-</polygon>
-<wire x1="4.625" y1="4.13" x2="4.625" y2="2.63" width="0" layer="46"/>
-<wire x1="4.625" y1="2.63" x2="4.325" y2="2.33" width="0" layer="46" curve="-90"/>
-<wire x1="4.325" y1="2.33" x2="4.025" y2="2.63" width="0" layer="46" curve="-90"/>
-<wire x1="4.025" y1="2.63" x2="4.025" y2="4.13" width="0" layer="46"/>
-<wire x1="4.025" y1="4.13" x2="4.325" y2="4.43" width="0" layer="46" curve="-90"/>
-<wire x1="4.325" y1="4.43" x2="4.625" y2="4.13" width="0" layer="46" curve="-90"/>
-<polygon width="0.01" layer="1">
-<vertex x="4.775" y="4.13"/>
-<vertex x="4.775" y="2.63" curve="-90"/>
-<vertex x="4.325" y="2.18" curve="-90"/>
-<vertex x="3.875" y="2.63"/>
-<vertex x="3.875" y="4.13" curve="-90"/>
-<vertex x="4.325" y="4.58" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="4.875" y="4.13"/>
-<vertex x="4.875" y="2.63" curve="-90"/>
-<vertex x="4.325" y="2.08" curve="-90"/>
-<vertex x="3.775" y="2.63"/>
-<vertex x="3.775" y="4.13" curve="-90"/>
-<vertex x="4.325" y="4.68" curve="-90"/>
-</polygon>
-<polygon width="0.01" layer="16">
-<vertex x="3.875" y="4.13"/>
-<vertex x="3.875" y="2.63" curve="90"/>
-<vertex x="4.325" y="2.18" curve="90"/>
-<vertex x="4.775" y="2.63"/>
-<vertex x="4.775" y="4.13" curve="90"/>
-<vertex x="4.325" y="4.58" curve="90"/>
-</polygon>
-<polygon width="0.01" layer="30">
-<vertex x="3.775" y="4.13"/>
-<vertex x="3.775" y="2.63" curve="90"/>
-<vertex x="4.325" y="2.08" curve="90"/>
-<vertex x="4.875" y="2.63"/>
-<vertex x="4.875" y="4.13" curve="90"/>
-<vertex x="4.325" y="4.68" curve="90"/>
-</polygon>
-<wire x1="-4.47" y1="1.85" x2="-4.47" y2="1.17" width="0.2" layer="21"/>
-<wire x1="4.47" y1="1.85" x2="4.47" y2="1.17" width="0.2" layer="21"/>
-<circle x="-2.975" y="5.7" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.975" y="5.7" radius="0.1" width="0.2" layer="51"/>
-<pad name="A1" x="-2.975" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A4" x="-2.125" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A5" x="-1.275" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A6" x="-0.425" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A7" x="0.425" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A8" x="1.275" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A9" x="2.125" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="A12" x="2.975" y="4.36" drill="0.4" diameter="0.65"/>
-<pad name="B1" x="2.975" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B4" x="2.125" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B5" x="1.275" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B6" x="0.425" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B7" x="-0.425" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B8" x="-1.275" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B9" x="-2.125" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="B12" x="-2.975" y="3.01" drill="0.4" diameter="0.65"/>
-<pad name="S1" x="-4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
-<pad name="S2" x="4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
-<pad name="S3" x="-4.325" y="3.38" drill="0.6" diameter="0.9" stop="no"/>
-<pad name="S4" x="4.325" y="3.38" drill="0.6" diameter="0.9" stop="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB4085-GF-A_REVA4">
-<wire x1="-5.08" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
-<text x="-5.08" y="18.288" size="2.1844" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-20.32" size="2.1844" layer="96">&gt;VALUE</text>
-<pin name="VBUS" x="-10.16" y="15.24" visible="pin" length="middle" direction="pwr"/>
-<pin name="CC1" x="-10.16" y="10.16" visible="pin" length="middle"/>
-<pin name="CC2" x="-10.16" y="7.62" visible="pin" length="middle"/>
-<pin name="DP1" x="-10.16" y="5.08" visible="pin" length="middle"/>
-<pin name="DP2" x="-10.16" y="2.54" visible="pin" length="middle"/>
-<pin name="DN1" x="-10.16" y="0" visible="pin" length="middle"/>
-<pin name="DN2" x="-10.16" y="-2.54" visible="pin" length="middle"/>
-<pin name="SBU1" x="-10.16" y="-5.08" visible="pin" length="middle"/>
-<pin name="SBU2" x="-10.16" y="-7.62" visible="pin" length="middle"/>
-<pin name="GND" x="-10.16" y="-15.24" visible="pin" length="middle" direction="pwr"/>
-<pin name="SHELL" x="-10.16" y="-12.7" visible="pin" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USB4085-GF-A_REVA4" prefix="J">
-<description> &lt;a href="https://pricing.snapeda.com/parts/USB4085-GF-A/Global%20Connector%20Technology/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="USB4085-GF-A_REVA4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="GCT_USB4085-GF-A_REVA4">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="DN1" pad="A7"/>
-<connect gate="G$1" pin="DN2" pad="B7"/>
-<connect gate="G$1" pin="DP1" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="B6"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHELL" pad="S1 S2 S3 S4"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Through Hole, Right Angle, low cost, 3.46mm profile, 16 pin, horizontal, Top mount "/>
-<attribute name="MF" value="Global Connector Technology"/>
-<attribute name="MP" value="USB4085-GF-A"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4085-GF-A/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -17912,6 +17657,261 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="USB4085-GF-A_REVA4">
+<packages>
+<package name="GCT_USB4085-GF-A_REVA4">
+<text x="-5.025" y="7.92" size="1.27" layer="25" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-5.025" y="6.315" size="1.27" layer="27" ratio="13" rot="SR0">&gt;VALUE</text>
+<wire x1="-4.47" y1="-1.74" x2="10.5" y2="-1.74" width="0.1" layer="51"/>
+<text x="5.315" y="-1.57" size="0.8128" layer="51">PCB EDGE</text>
+<wire x1="-4.47" y1="4.92" x2="4.47" y2="4.92" width="0.1" layer="51"/>
+<wire x1="4.47" y1="4.92" x2="4.47" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="4.47" y1="-4.25" x2="-4.47" y2="-4.25" width="0.1" layer="51"/>
+<wire x1="-4.47" y1="-4.25" x2="-4.47" y2="-1.74" width="0.1" layer="51"/>
+<wire x1="-4.47" y1="-1.74" x2="-4.47" y2="4.92" width="0.1" layer="51"/>
+<wire x1="-4.47" y1="-1.39" x2="-4.47" y2="-1.74" width="0.2" layer="21"/>
+<wire x1="-4.47" y1="-1.74" x2="4.47" y2="-1.74" width="0.2" layer="21"/>
+<wire x1="4.47" y1="-1.74" x2="4.47" y2="-1.39" width="0.2" layer="21"/>
+<wire x1="-5.025" y1="5.17" x2="5.025" y2="5.17" width="0.05" layer="39"/>
+<wire x1="5.025" y1="5.17" x2="5.025" y2="-4.5" width="0.05" layer="39"/>
+<wire x1="5.025" y1="-4.5" x2="-5.025" y2="-4.5" width="0.05" layer="39"/>
+<wire x1="-5.025" y1="-4.5" x2="-5.025" y2="5.17" width="0.05" layer="39"/>
+<wire x1="-4.025" y1="0.4" x2="-4.025" y2="-0.4" width="0" layer="46"/>
+<wire x1="-4.025" y1="-0.4" x2="-4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="-0.7" x2="-4.625" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="-4.625" y1="-0.4" x2="-4.625" y2="0.4" width="0" layer="46"/>
+<wire x1="-4.625" y1="0.4" x2="-4.325" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="0.7" x2="-4.025" y2="0.4" width="0" layer="46" curve="-90"/>
+<polygon width="0.01" layer="29">
+<vertex x="-3.775" y="0.4"/>
+<vertex x="-3.775" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.95" curve="-90"/>
+<vertex x="-4.875" y="-0.4"/>
+<vertex x="-4.875" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.95" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-3.875" y="0.4"/>
+<vertex x="-3.875" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.85" curve="-90"/>
+<vertex x="-4.775" y="-0.4"/>
+<vertex x="-4.775" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-4.875" y="0.4"/>
+<vertex x="-4.875" y="-0.4" curve="90"/>
+<vertex x="-4.325" y="-0.95" curve="90"/>
+<vertex x="-3.775" y="-0.4"/>
+<vertex x="-3.775" y="0.4" curve="90"/>
+<vertex x="-4.325" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="-4.775" y="0.4"/>
+<vertex x="-4.775" y="-0.4" curve="90"/>
+<vertex x="-4.325" y="-0.85" curve="90"/>
+<vertex x="-3.875" y="-0.4"/>
+<vertex x="-3.875" y="0.4" curve="90"/>
+<vertex x="-4.325" y="0.85" curve="90"/>
+</polygon>
+<wire x1="4.625" y1="0.4" x2="4.625" y2="-0.4" width="0" layer="46"/>
+<wire x1="4.625" y1="-0.4" x2="4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="-0.7" x2="4.025" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="4.025" y1="-0.4" x2="4.025" y2="0.4" width="0" layer="46"/>
+<wire x1="4.025" y1="0.4" x2="4.325" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="0.7" x2="4.625" y2="0.4" width="0" layer="46" curve="-90"/>
+<polygon width="0.01" layer="29">
+<vertex x="4.875" y="0.4"/>
+<vertex x="4.875" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.95" curve="-90"/>
+<vertex x="3.775" y="-0.4"/>
+<vertex x="3.775" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.95" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="4.775" y="0.4"/>
+<vertex x="4.775" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.85" curve="-90"/>
+<vertex x="3.875" y="-0.4"/>
+<vertex x="3.875" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="3.775" y="0.4"/>
+<vertex x="3.775" y="-0.4" curve="90"/>
+<vertex x="4.325" y="-0.95" curve="90"/>
+<vertex x="4.875" y="-0.4"/>
+<vertex x="4.875" y="0.4" curve="90"/>
+<vertex x="4.325" y="0.95" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="3.875" y="0.4"/>
+<vertex x="3.875" y="-0.4" curve="90"/>
+<vertex x="4.325" y="-0.85" curve="90"/>
+<vertex x="4.775" y="-0.4"/>
+<vertex x="4.775" y="0.4" curve="90"/>
+<vertex x="4.325" y="0.85" curve="90"/>
+</polygon>
+<wire x1="-4.025" y1="4.13" x2="-4.025" y2="2.63" width="0" layer="46"/>
+<wire x1="-4.025" y1="2.63" x2="-4.325" y2="2.33" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="2.33" x2="-4.625" y2="2.63" width="0" layer="46" curve="-90"/>
+<wire x1="-4.625" y1="2.63" x2="-4.625" y2="4.13" width="0" layer="46"/>
+<wire x1="-4.625" y1="4.13" x2="-4.325" y2="4.43" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="4.43" x2="-4.025" y2="4.13" width="0" layer="46" curve="-90"/>
+<polygon width="0.01" layer="1">
+<vertex x="-3.875" y="4.13"/>
+<vertex x="-3.875" y="2.63" curve="-90"/>
+<vertex x="-4.325" y="2.18" curve="-90"/>
+<vertex x="-4.775" y="2.63"/>
+<vertex x="-4.775" y="4.13" curve="-90"/>
+<vertex x="-4.325" y="4.58" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-3.775" y="4.13"/>
+<vertex x="-3.775" y="2.63" curve="-90"/>
+<vertex x="-4.325" y="2.08" curve="-90"/>
+<vertex x="-4.875" y="2.63"/>
+<vertex x="-4.875" y="4.13" curve="-90"/>
+<vertex x="-4.325" y="4.68" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="-4.775" y="4.13"/>
+<vertex x="-4.775" y="2.63" curve="90"/>
+<vertex x="-4.325" y="2.18" curve="90"/>
+<vertex x="-3.875" y="2.63"/>
+<vertex x="-3.875" y="4.13" curve="90"/>
+<vertex x="-4.325" y="4.58" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-4.875" y="4.13"/>
+<vertex x="-4.875" y="2.63" curve="90"/>
+<vertex x="-4.325" y="2.08" curve="90"/>
+<vertex x="-3.775" y="2.63"/>
+<vertex x="-3.775" y="4.13" curve="90"/>
+<vertex x="-4.325" y="4.68" curve="90"/>
+</polygon>
+<wire x1="4.625" y1="4.13" x2="4.625" y2="2.63" width="0" layer="46"/>
+<wire x1="4.625" y1="2.63" x2="4.325" y2="2.33" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="2.33" x2="4.025" y2="2.63" width="0" layer="46" curve="-90"/>
+<wire x1="4.025" y1="2.63" x2="4.025" y2="4.13" width="0" layer="46"/>
+<wire x1="4.025" y1="4.13" x2="4.325" y2="4.43" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="4.43" x2="4.625" y2="4.13" width="0" layer="46" curve="-90"/>
+<polygon width="0.01" layer="1">
+<vertex x="4.775" y="4.13"/>
+<vertex x="4.775" y="2.63" curve="-90"/>
+<vertex x="4.325" y="2.18" curve="-90"/>
+<vertex x="3.875" y="2.63"/>
+<vertex x="3.875" y="4.13" curve="-90"/>
+<vertex x="4.325" y="4.58" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="4.875" y="4.13"/>
+<vertex x="4.875" y="2.63" curve="-90"/>
+<vertex x="4.325" y="2.08" curve="-90"/>
+<vertex x="3.775" y="2.63"/>
+<vertex x="3.775" y="4.13" curve="-90"/>
+<vertex x="4.325" y="4.68" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="3.875" y="4.13"/>
+<vertex x="3.875" y="2.63" curve="90"/>
+<vertex x="4.325" y="2.18" curve="90"/>
+<vertex x="4.775" y="2.63"/>
+<vertex x="4.775" y="4.13" curve="90"/>
+<vertex x="4.325" y="4.58" curve="90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="3.775" y="4.13"/>
+<vertex x="3.775" y="2.63" curve="90"/>
+<vertex x="4.325" y="2.08" curve="90"/>
+<vertex x="4.875" y="2.63"/>
+<vertex x="4.875" y="4.13" curve="90"/>
+<vertex x="4.325" y="4.68" curve="90"/>
+</polygon>
+<wire x1="-4.47" y1="1.85" x2="-4.47" y2="1.17" width="0.2" layer="21"/>
+<wire x1="4.47" y1="1.85" x2="4.47" y2="1.17" width="0.2" layer="21"/>
+<circle x="-2.975" y="5.7" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.975" y="5.7" radius="0.1" width="0.2" layer="51"/>
+<pad name="A1" x="-2.975" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A4" x="-2.125" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A5" x="-1.275" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A6" x="-0.425" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A7" x="0.425" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A8" x="1.275" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A9" x="2.125" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="A12" x="2.975" y="4.36" drill="0.4" diameter="0.65"/>
+<pad name="B1" x="2.975" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B4" x="2.125" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B5" x="1.275" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B6" x="0.425" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B7" x="-0.425" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B8" x="-1.275" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B9" x="-2.125" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="B12" x="-2.975" y="3.01" drill="0.4" diameter="0.65"/>
+<pad name="S1" x="-4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S2" x="4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S3" x="-4.325" y="3.38" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S4" x="4.325" y="3.38" drill="0.6" diameter="0.9" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB4085-GF-A_REVA4">
+<wire x1="-5.08" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<text x="-5.08" y="18.288" size="2.1844" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="2.1844" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="-10.16" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="CC1" x="-10.16" y="10.16" visible="pin" length="middle"/>
+<pin name="CC2" x="-10.16" y="7.62" visible="pin" length="middle"/>
+<pin name="DP1" x="-10.16" y="5.08" visible="pin" length="middle"/>
+<pin name="DP2" x="-10.16" y="2.54" visible="pin" length="middle"/>
+<pin name="DN1" x="-10.16" y="0" visible="pin" length="middle"/>
+<pin name="DN2" x="-10.16" y="-2.54" visible="pin" length="middle"/>
+<pin name="SBU1" x="-10.16" y="-5.08" visible="pin" length="middle"/>
+<pin name="SBU2" x="-10.16" y="-7.62" visible="pin" length="middle"/>
+<pin name="GND" x="-10.16" y="-15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="SHELL" x="-10.16" y="-12.7" visible="pin" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB4085-GF-A_REVA4" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/USB4085-GF-A/Global%20Connector%20Technology/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB4085-GF-A_REVA4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GCT_USB4085-GF-A_REVA4">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHELL" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Through Hole, Right Angle, low cost, 3.46mm profile, 16 pin, horizontal, Top mount "/>
+<attribute name="MF" value="Global Connector Technology"/>
+<attribute name="MP" value="USB4085-GF-A"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4085-GF-A/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17943,7 +17943,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="DS1" library="AOM12864A0-1.54WW-ANO" deviceset="AOM12864A0-1.54WW-ANO" device=""/>
 <part name="S16" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="J1" library="USB4085-GF-A_REVA4" deviceset="USB4085-GF-A_REVA4" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22"/>
@@ -18012,6 +18011,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="D14" library="1N4148WT" deviceset="1N4148WT" device=""/>
 <part name="D15" library="1N4148WT" deviceset="1N4148WT" device=""/>
 <part name="D16" library="1N4148WT" deviceset="1N4148WT" device=""/>
+<part name="J1" library="USB4085-GF-A_REVA4" deviceset="USB4085-GF-A_REVA4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18101,10 +18101,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="S16" gate="1" x="144.78" y="137.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.24" y="143.51" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.955" y="140.97" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="78.74" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="83.82" y="108.712" size="2.1844" layer="95" rot="R180"/>
-<attribute name="VALUE" x="83.82" y="147.32" size="2.1844" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="93.98" y="139.7" smashed="yes">
 <attribute name="VALUE" x="91.313" y="136.525" size="1.778" layer="96"/>
@@ -18342,6 +18338,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="193.03298125" y="64.50481875" size="2.08563125" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="193.00326875" y="56.93985" size="2.088559375" layer="96" ratio="10" rot="SR0"/>
 </instance>
+<instance part="J1" gate="G$1" x="78.74" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.82" y="108.712" size="2.1844" layer="95" rot="R180"/>
+<attribute name="VALUE" x="83.82" y="147.32" size="2.1844" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18555,9 +18555,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
 <wire x1="88.9" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="S16" gate="1" pin="P"/>
@@ -18637,24 +18637,24 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="DN2"/>
 <wire x1="88.9" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="129.54" x2="91.44" y2="127" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="DN1"/>
 <wire x1="91.44" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="DN1"/>
+<pinref part="J1" gate="G$1" pin="DN2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="DP2"/>
 <wire x1="88.9" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="124.46" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="DP1"/>
 <wire x1="91.44" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="DP1"/>
+<pinref part="J1" gate="G$1" pin="DP2"/>
 </segment>
 </net>
 <net name="DN" class="0">
@@ -18827,9 +18827,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </net>
 <net name="UVCC" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="88.9" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="UVCC"/>

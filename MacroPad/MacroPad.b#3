@@ -75,9 +75,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="120.63" y2="0" width="0" layer="20"/>
-<wire x1="120.63" y1="0" x2="120.63" y2="68.25" width="0" layer="20"/>
-<wire x1="120.63" y1="68.25" x2="0" y2="68.25" width="0" layer="20"/>
-<wire x1="0" y1="68.25" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="120.63" y1="0" x2="120.63" y2="69.52" width="0" layer="20"/>
+<wire x1="120.63" y1="69.52" x2="0" y2="69.52" width="0" layer="20"/>
+<wire x1="0" y1="69.52" x2="0" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="64.77" drill="2.8"/>
 <hole x="2.54" y="2.54" drill="2.8"/>
 <hole x="118.11" y="66.04" drill="2.8"/>

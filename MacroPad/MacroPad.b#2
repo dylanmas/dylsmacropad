@@ -80,10 +80,10 @@
 <wire x1="0" y1="69.52" x2="0" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="64.77" drill="2.8"/>
 <hole x="2.54" y="2.54" drill="2.8"/>
-<hole x="118.11" y="66.04" drill="2.8"/>
+<hole x="118.11" y="64.77" drill="2.8"/>
 <hole x="118.11" y="2.54" drill="2.8"/>
 <text x="2.54" y="6.35" size="1.778" layer="45" rot="R90">Dyl's Macropad</text>
-<text x="119.38" y="21.59" size="1.778" layer="45" rot="R90">If you're reading this: have a nice day!</text>
+<text x="119.38" y="20.32" size="1.778" layer="45" rot="R90">If you're reading this: have a nice day!</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

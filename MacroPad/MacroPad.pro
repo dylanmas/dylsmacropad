@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/dylan/Documents/EAGLE/projects/MacroPad/MacroPad.brd
+Job           : C:/Users/dylan/Documents/GitHub/dylansmacropad/MacroPad/MacroPad.brd
 
-Start at      : 22:30:54 (11/26/2022)
-End at        : 22:31:07 (11/26/2022)
-Elapsed time  : 00:00:12
+Start at      : 03:33:40 (11/27/2022)
+End at        : 03:35:08 (11/27/2022)
+Elapsed time  : 00:01:26
 
-Signals       :    46   RoutingGrid: 6 mil  Layers: 2
-Connections   :   107   predefined:  103 ( 69 Vias )
+Signals       :    46   RoutingGrid: 8 mil  Layers: 2
+Connections   :   107   predefined:  12 ( 0 Vias )
 
-Router memory :   1542400
+Router memory :   874104
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:11  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:01:04  00:00:02  00:00:02  00:00:02  00:00:01  00:00:02  00:00:01  00:00:02  00:00:02  00:00:01  00:00:02  00:00:02  00:00:01  00:00:02
+Number of Ripups  :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         7         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         1         4         4         4         4         4
-Vias              :         0         8         9        10         9         7
-Resolution        :    97.2 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        21        95        95        95        95        95        95        95        95        95        95        95        95        95
+Vias              :         0        81        87        79        76        76        76        76        74        72        72        72        72        72
+Resolution        :    30.8 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
