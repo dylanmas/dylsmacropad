@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -75,15 +75,15 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="120.63" y2="0" width="0" layer="20"/>
-<wire x1="120.63" y1="0" x2="120.63" y2="68.25" width="0" layer="20"/>
-<wire x1="120.63" y1="68.25" x2="0" y2="68.25" width="0" layer="20"/>
-<wire x1="0" y1="68.25" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="120.63" y1="0" x2="120.63" y2="69.52" width="0" layer="20"/>
+<wire x1="120.63" y1="69.52" x2="0" y2="69.52" width="0" layer="20"/>
+<wire x1="0" y1="69.52" x2="0" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="64.77" drill="2.8"/>
 <hole x="2.54" y="2.54" drill="2.8"/>
-<hole x="118.11" y="66.04" drill="2.8"/>
+<hole x="118.11" y="64.77" drill="2.8"/>
 <hole x="118.11" y="2.54" drill="2.8"/>
 <text x="2.54" y="6.35" size="1.778" layer="45" rot="R90">Dyl's Macropad</text>
-<text x="119.38" y="21.59" size="1.778" layer="45" rot="R90">If you're reading this: have a nice day!</text>
+<text x="119.38" y="20.32" size="1.778" layer="45" rot="R90">If you're reading this: have a nice day!</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3019,9 +3019,9 @@ design rules under a new name.</description>
 <wire x1="80.3148" y1="63.0428" x2="80.3148" y2="63.3476" width="0.1524" layer="1"/>
 <wire x1="74.5236" y1="63.0428" x2="74.495" y2="63.03" width="0.1524" layer="1"/>
 <wire x1="80.3148" y1="63.0428" x2="80.445" y2="63.03" width="0.1524" layer="1"/>
-<wire x1="80.772" y1="61.3664" x2="88.0872" y2="61.3664" width="0.1524" layer="1"/>
-<wire x1="80.4672" y1="61.6712" x2="80.772" y2="61.3664" width="0.1524" layer="1"/>
-<wire x1="88.0872" y1="61.3664" x2="88.1888" y2="61.2394" width="0.1524" layer="1"/>
+<wire x1="88.1888" y1="61.2394" x2="87.0458" y2="60.0964" width="0.1524" layer="1"/>
+<wire x1="87.0458" y1="60.0964" x2="82.042" y2="60.0964" width="0.1524" layer="1"/>
+<wire x1="80.4672" y1="61.6712" x2="82.042" y2="60.0964" width="0.1524" layer="1"/>
 <wire x1="80.4672" y1="61.6712" x2="80.445" y2="61.68" width="0.1524" layer="1"/>
 <wire x1="86.2584" y1="38.6588" x2="86.2584" y2="37.4396" width="0.1524" layer="1"/>
 <wire x1="76.2" y1="48.7172" x2="86.2584" y2="38.6588" width="0.1524" layer="1"/>
@@ -3152,10 +3152,10 @@ design rules under a new name.</description>
 <wire x1="100.7364" y1="52.9844" x2="100.7364" y2="46.2788" width="0.1524" layer="1"/>
 <wire x1="103.0224" y1="55.2704" x2="100.7364" y2="52.9844" width="0.1524" layer="1"/>
 <wire x1="103.0224" y1="59.69" x2="103.0224" y2="55.2704" width="0.1524" layer="16"/>
-<wire x1="95.8596" y1="66.8528" x2="103.0224" y2="59.69" width="0.1524" layer="16"/>
-<wire x1="81.3816" y1="66.8528" x2="95.8596" y2="66.8528" width="0.1524" layer="16"/>
-<wire x1="78.0288" y1="63.5" x2="81.3816" y2="66.8528" width="0.1524" layer="16"/>
-<wire x1="78.0288" y1="63.0428" x2="78.0288" y2="63.5" width="0.1524" layer="16"/>
+<wire x1="94.5896" y1="68.1228" x2="103.0224" y2="59.69" width="0.1524" layer="16"/>
+<wire x1="81.3816" y1="68.1228" x2="94.5896" y2="68.1228" width="0.1524" layer="16"/>
+<wire x1="78.0288" y1="64.77" x2="81.3816" y2="68.1228" width="0.1524" layer="16"/>
+<wire x1="78.0288" y1="63.0428" x2="78.0288" y2="64.77" width="0.1524" layer="16"/>
 <wire x1="101.8032" y1="43.2308" x2="101.92" y2="43.18" width="0.1524" layer="1"/>
 <wire x1="78.0288" y1="63.0428" x2="77.895" y2="63.03" width="0.1524" layer="16"/>
 <wire x1="77.1144" y1="62.1284" x2="77.1144" y2="61.8236" width="0.1524" layer="16"/>
