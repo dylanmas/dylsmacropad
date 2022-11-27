@@ -18012,6 +18012,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="D15" library="1N4148WT" deviceset="1N4148WT" device=""/>
 <part name="D16" library="1N4148WT" deviceset="1N4148WT" device=""/>
 <part name="J1" library="USB4085-GF-A_REVA4" deviceset="USB4085-GF-A_REVA4" device=""/>
+<part name="D17" library="1N4148WT" deviceset="1N4148WT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18341,6 +18342,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="J1" gate="G$1" x="78.74" y="127" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.82" y="108.712" size="2.1844" layer="95" rot="R180"/>
 <attribute name="VALUE" x="83.82" y="147.32" size="2.1844" layer="96" rot="R180"/>
+</instance>
+<instance part="D17" gate="G$1" x="101.6" y="96.52" smashed="yes">
+<attribute name="NAME" x="96.51298125" y="100.06481875" size="2.08563125" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="96.48326875" y="92.49985" size="2.088559375" layer="96" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -18901,6 +18906,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="104.14" y1="91.44" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="106.68" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="D17" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -18958,6 +18964,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="D17" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="D16" class="0">

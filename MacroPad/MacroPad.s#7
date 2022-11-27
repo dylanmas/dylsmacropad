@@ -9754,9 +9754,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VBUS"/>
-<wire x1="304.8" y1="154.94" x2="309.88" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="154.94" x2="309.88" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="UVCC"/>
 <wire x1="309.88" y1="160.02" x2="304.8" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="160.02" x2="314.96" y2="160.02" width="0.1524" layer="91"/>
@@ -9766,6 +9763,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="355.6" y1="162.56" x2="355.6" y2="165.1" width="0.1524" layer="91"/>
 <label x="355.6" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VBUS"/>
+<wire x1="304.8" y1="154.94" x2="314.96" y2="154.94" width="0.1524" layer="91"/>
+<label x="314.96" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">

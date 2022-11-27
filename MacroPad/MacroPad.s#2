@@ -18960,6 +18960,60 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="91.44" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="D16" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="RST"/>
+<wire x1="276.86" y1="27.94" x2="276.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="276.86" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
+<wire x1="238.76" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
+<label x="233.68" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D10" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="DC"/>
+<wire x1="279.4" y1="27.94" x2="279.4" y2="25.4" width="0.1524" layer="91"/>
+<label x="279.4" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB6(PCINT6/OC1B/OC4B/ADC)"/>
+<wire x1="238.76" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
+<label x="233.68" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="CS"/>
+<wire x1="284.48" y1="27.94" x2="284.48" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D15" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="SCL"/>
+<label x="287.02" y="22.86" size="1.778" layer="95"/>
+<wire x1="287.02" y1="27.94" x2="287.02" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB1(PCINT1/SCLK)"/>
+<wire x1="238.76" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
+<label x="233.68" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D14" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="SDA"/>
+<wire x1="289.56" y1="27.94" x2="289.56" y2="25.4" width="0.1524" layer="91"/>
+<label x="289.56" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
+<wire x1="238.76" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
+<label x="233.68" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
