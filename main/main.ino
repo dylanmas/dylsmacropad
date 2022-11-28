@@ -70,7 +70,12 @@ void loop() {
     {
       if (trig == false) {
         trig = true;
-        Keyboard.write(table[i-2][1]);
+        //Keyboard.write(table[i-2][1]);
+        Keyboard.press(128);
+        Keyboard.write('l');
+        Keyboard.release(128);
+        Keyboard.print("layer 1");
+        Keyboard.write(224);
         tone(PIEZO, 600);
         delay(5);
         noTone(PIEZO);
@@ -80,7 +85,12 @@ void loop() {
     {
       if (trig == false) {
         trig = true;
-        Keyboard.write(table[i-2][0]);
+        //Keyboard.write(table[i-2][0]);
+        Keyboard.press(128);
+        Keyboard.write('l');
+        Keyboard.release(128);
+        Keyboard.print("layer 16");
+        Keyboard.write(224);
         tone(PIEZO, 800);
         delay(5);
         noTone(PIEZO);
