@@ -12,7 +12,7 @@ const config = {
         }),
         paths: {
             // #NOTE UNCOMMENT THIS WHEN PUBLISHING
-            //base: dev ? "" : "/dylsmacropad",
+            base: dev ? "" : "/dylsmacropad",
         },
     }
 };
