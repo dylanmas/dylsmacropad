@@ -41,6 +41,14 @@ void setup() {
   pinMode(6, OUTPUT);
 }
 
+void writeOut(String word) {
+  delay(50);
+  for (size_t i = 0; i < word.length(); i++)
+  {
+    Keyboard.write(word.charAt(i));
+  }
+}
+
 void loop() {
   // put your main code here, to run repeatedly:
   for (size_t i = 2; i <= 5; i++)
@@ -74,7 +82,11 @@ void loop() {
         Keyboard.press(128);
         Keyboard.write('l');
         Keyboard.release(128);
-        Keyboard.print("layer 1");
+        //Keyboard.print("layer 1");
+
+        writeOut("layer 1");
+        
+
         Keyboard.write(224);
         tone(PIEZO, 600);
         delay(5);
@@ -89,7 +101,10 @@ void loop() {
         Keyboard.press(128);
         Keyboard.write('l');
         Keyboard.release(128);
-        Keyboard.print("google.com");
+        //Keyboard.print("google.com");
+
+        writeOut("thequickbrownfoxjumpsoverthelazydog");
+
         Keyboard.write(224);
         tone(PIEZO, 800);
         delay(5);
