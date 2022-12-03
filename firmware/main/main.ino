@@ -89,7 +89,7 @@ void loop() {
         Keyboard.press(128);
         Keyboard.write('l');
         Keyboard.release(128);
-        Keyboard.print("layer 16");
+        Keyboard.print("google.com");
         Keyboard.write(224);
         tone(PIEZO, 800);
         delay(5);

@@ -12,7 +12,49 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "shell": {
+        "scope": [
+          {
+            "name": "list",
+            "cmd": "./arduino-cli",
+            "args": ["board", "list"]
+          },
+          {
+            "name": "depinstall",
+            "cmd": "./arduino-cli",
+            "args": ["core", "install", "arduino:avr"]
+          },
+          {
+            "name": "compile",
+            "cmd": "./arduino-cli",
+            "args": [
+              "compile",
+              "-b",
+              "arduino:avr:leonardo",
+              "FMWAREFILE"
+            ]
+          },
+          {
+            "name": "upload",
+            "cmd": "./arduino-cli",
+            "args": [
+              "upload",
+              "-p",
+              "PORT",
+              "-b",
+              "arduino:avr:leonardo",
+              "FMWAREFILE"
+            ]
+          }
+        ],
+        "all": true,
+        "execute": true,
+        "sidecar": true,
+        "open": true
+      },
+      "window": {
+        "all": true
+      }
     },
     "bundle": {
       "active": true,
@@ -59,8 +101,10 @@
         "height": 600,
         "resizable": true,
         "title": "Configurator",
-        "width": 800
+        "width": 800,
+        "decorations": false
       }
     ]
   }
+  
 }
