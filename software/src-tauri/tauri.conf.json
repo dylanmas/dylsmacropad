@@ -12,6 +12,9 @@
   },
   "tauri": {
     "allowlist": {
+      "fs": {
+        "scope": ["$RESOURCE/*"]
+      },
       "shell": {
         "scope": [
           {
@@ -45,7 +48,8 @@
               "arduino:avr:leonardo",
               "FMWAREFILE"
             ]
-          }
+          },
+          { "name": "./arduino-cli", "sidecar": true }
         ],
         "all": true,
         "execute": true,
@@ -63,7 +67,9 @@
       "deb": {
         "depends": []
       },
-      "externalBin": [],
+      "externalBin": [
+        "./arduino-cli"
+      ],
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -80,7 +86,9 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
+      "resources": [
+        "./main.ino"
+      ],
       "shortDescription": "",
       "targets": "all",
       "windows": {
