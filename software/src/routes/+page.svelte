@@ -1,11 +1,15 @@
 <script>
     import { Command } from '@tauri-apps/api/shell'
     import { onMount } from 'svelte';
-    import { appWindow } from '@tauri-apps/api/window'
+    //import { appWindow } from '@tauri-apps/api/window'
     //import { Config } from  './config.svelte';
+
+    var pageType = 1;
 
     var load = false;
     var devicelist = [];
+    var macro = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P'];
+    var selectedKey = "";
 
     var selectedDevice = "";
 
@@ -47,6 +51,8 @@
 
     const exec2 = () => {
         console.log(devicelist);
+
+        pageType = 1;
     }
 
     onMount(async () => {
@@ -61,6 +67,10 @@
             .getElementById('titlebar-close')
             .addEventListener('click', () => appWindow.close())
     })
+
+    const connectAndCreateFile = (input) => {
+
+    }
 </script>
 
 <div class="flex flex-col h-[100vh] overflow-x-hidden">
@@ -87,7 +97,7 @@
     <div class="w-full py-5 flex items-center">
         <div class="w-full flex flex-col text-3xl">
             <div class="flex items-center px-10">
-                <h1 class="text-2xl mr-auto">Select your device:</h1>
+                <h1 class="text-2xl mr-auto">{pageType == 0 ? "Select your device:" : "Device editor"}</h1>
                 <button id="refreshButton" class="{load == true ? "opacity-40" : ""} flex items-center gap-2 bg-neutral-200 px-2 py-1 ml-5 rounded-md text-xl shadow-md hover:bg-neutral-300 active:shadow-sm" on:click={exec}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                         <path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H3.989a.75.75 0 00-.75.75v4.242a.75.75 0 001.5 0v-2.43l.31.31a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm1.23-3.723a.75.75 0 00.219-.53V2.929a.75.75 0 00-1.5 0V5.36l-.31-.31A7 7 0 003.239 8.188a.75.75 0 101.448.389A5.5 5.5 0 0113.89 6.11l.311.31h-2.432a.75.75 0 000 1.5h4.243a.75.75 0 00.53-.219z" clip-rule="evenodd" />
@@ -99,6 +109,8 @@
         </div>
     </div>
     
+    {#if pageType == 0}
+    
     <div class="flex pb-5 mb-auto overflow-x-scroll h-full shadow-md">
         {#if !load}
             {#if devicelist[0] == "No boards found."}
@@ -109,7 +121,7 @@
             {:else}
             <div class="flex gap-5 pl-10 pb-5">
                 {#each devicelist as devicelist, i}
-                    <button class="overflow-y-scroll overflow-x-hidden bg-neutral-200 w-80 h-[640px] p-5 rounded-md shadow-md flex flex-col items-center gap-5 hover:bg-neutral-300 active:shadow-sm">
+                    <button on:click={() => {connectAndCreateFile(devicelist)}} class="overflow-y-scroll overflow-x-hidden bg-neutral-200 w-80 h-[640px] p-5 rounded-md shadow-md flex flex-col items-center gap-5 hover:bg-neutral-300 active:shadow-sm">
                         <h1 class="text-lg font-bold bg-blue-300 text-blue-800 px-2 py-1 rounded-md shadow-inner font-mono">Device {i + 1}</h1>
                         <img src="https://pdf.icgoo.net/productinfo/allimg/freescale/MC908AP32CFAE.jpg"/>
                         <h1 class="font-semibold text-3xl">{devicelist}</h1>
@@ -132,6 +144,60 @@
         </div>
         {/if}
     </div>
+
+    {:else if pageType == 1}
+
+    <!-- Editing page -->
+    <div class="flex pb-5 mb-auto">
+        <div class="bg-neutral-200 w-full mx-10 rounded-md shadow-inner flex flex-col p-5 overflow-x-scroll">
+            <h1 class="text-2xl mx-auto mb-4">Select a key to edit</h1>
+            <div class="grid grid-cols-4 grid-rows-4 gap-2">
+                {#each macro as macro}
+                <button on:click={() => {selectedKey = macro}} class="h-20 bg-neutral-700 rounded-md shadow-md flex items-center hover:bg-black">
+                    <h1 class="font-mono font-bold text-white text-3xl mx-auto">{macro}</h1>
+                </button>
+                {/each}
+            </div>
+            {#if selectedKey != ""}
+            <div class="flex flex-col mt-2 gap-2 transition-all">
+                <div class="bg-white flex items-center shadow-inner rounded-md mt-2">
+                    <h1 class="text-2xl m-2 ml-3">Editing:</h1>
+                    <div class="w-full h-full flex items-center bg-blue-300 text-blue-700 rounded-md border-blue-700 border-2">
+                        <h1 class="font-mono mx-auto font-bold flex text-2xl items-center shadow-sm">{selectedKey}</h1>
+                    </div>
+                </div>
+                <div class="bg-white flex flex-col items-center shadow-inner rounded-md mt-2 w-full px-2">
+                    <div class="flex mt-2 items-center">
+                        <h1 class="text-2xl m-2">Key name:</h1>
+                        <div class="bg-neutral-200 flex flex-col items-center shadow-md rounded-md">
+                            <textarea class="font-mono text-xl m-2 bg-transparent resize-none">{selectedKey}</textarea>
+                        </div>
+                    </div>
+                    <div class="flex mt-2 items-center mb-2">
+                        <h1 class="text-2xl m-2 ml-auto">Key macro:</h1>
+                        <div class="bg-neutral-200 flex flex-col items-center shadow-md rounded-md">
+                            <textarea class="font-mono text-xl m-2 bg-transparent resize-none">[CTRL(A)[BKSP]]+['layer 16']</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/if}
+            <div class="flex mt-5 text-blue-800">
+                <button class="flex items-center gap-2 bg-blue-300 px-2 py-1 mx-auto rounded-md text-lg shadow-md hover:bg-blue-200 active:shadow-sm" on:click={exec}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15m0-3l-3-3m0 0l-3 3m3-3V15" />
+                </svg>
+                Push to device
+            </button>
+            </div>
+        </div>
+    </div>
+
+    {:else if pageType == 2}
+
+    {/if}
+
+    <!-- Modal screens -->
 
     <div class="px-10 py-5 bg-neutral-600 text-white">
         <div class="flex items-center">
