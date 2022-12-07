@@ -21,15 +21,124 @@ char table[4][4] = {
   {'M', 'N', 'O', 'P'}
 };
 
+U8G2_SSD1306_128X64_NONAME_F_4W_SW_SPI u8g2(U8G2_R0, 15, 14, 9, 10, 16); //[full framebuffer, size = 1024 bytes]
+
+// SECTION - PROGRAM EDITABLE - DO NOT EDIT THIS COMMENT
+
+//NOTE - Macro names live here:
 String namesTable[4][4] = {
   {"Photoshop", "EAGLE", "Cut", "SelAll"},
   {"Cut", "Copy", "Paste", "End"},
-  {"CtAltDel", "Open Edge", "ScrnSht", "Home"},
+  {"CtAltDel", "OpenEdge", "ScrnSht", "Home"},
   {"Up", "Down", "OK", "Back"}
 };
 
-U8G2_SSD1306_128X64_NONAME_F_4W_SW_SPI u8g2(U8G2_R0, 15, 14, 9, 10, 16); //[full framebuffer, size = 1024 bytes]
+//NOTE - Macro functions live here:
+void macroMap(char in) {
 
+  /*
+  Formatting:
+
+    case '<CHAR>':
+      active = "<MACRO NAME>";
+      <MACRO KEYBOARD/MOUSE FUNCTIONS>
+      break;  
+  */
+
+  //NOTE  cases 'LU' and 'LD' change layers.
+  //      layer keys can be assigned in the software.
+
+  switch (in)
+  {
+  //macro functions
+  case 'A':
+    if (layer == maxLayer)
+    {
+      layer = 0;
+    } else {
+      layer++;
+    }
+    u8g2.clearBuffer();
+    macroSel(1);
+    break;
+
+  case 'B':
+    if (layer == 0)
+    {
+      layer = maxLayer;
+    } else {
+      layer--;
+    }
+    u8g2.clearBuffer();
+    macroSel(2);
+    break;
+
+  case 'C':
+    active = "my macro!";
+    writeOut("yahoo.com");
+    break;
+
+  case 'D':
+    active = "my macro!";
+    writeOut("duckduckgo.com");
+    break;
+
+  case 'E':
+    break;
+
+  case 'F':
+    break;
+
+  case 'G':
+    active = "my macro!";
+    writeOut("yahoo.com");
+    break;
+
+  case 'H':
+    active = "my macro!";
+    writeOut("duckduckgo.com");
+    break;
+
+  case 'I':
+    break;
+
+  case 'J':
+    break;
+
+  case 'K':
+    active = "my macro!";
+    writeOut("yahoo.com");
+    break;
+
+  case 'L':
+    active = "my macro!";
+    writeOut("duckduckgo.com");
+    break;
+
+  case 'M':
+    break;
+
+  case 'N':
+    break;
+
+  case 'O':
+    active = "my macro!";
+    writeOut("yahoo.com");
+    break;
+
+  case 'P':
+    active = "my macro!";
+    writeOut("duckduckgo.com");
+    break;
+
+  default:
+    break;
+  }
+
+  active = "";
+}
+
+// !SECTION - PROGRAM EDITABLE END - DO NOT EDIT THIS COMMENT
 
 void printSection(int x, int y, String toPrint[4], int drawColor, int drawColorBox) {
   u8g2.setDrawColor(drawColorBox);
@@ -66,8 +175,8 @@ void macroSel(int sel) {
   switch (sel)
   {
   case 1:
-    S1 = 0x01;
-    S2 = 0x20;
+  S1 = 0x01;
+  S2 = 0x20;
     break;
 
   case 2:
@@ -108,65 +217,6 @@ void writeOut(String word) {
   {
     Keyboard.write(word.charAt(i));
   }
-}
-
-//data for macros lives in the macroMap function:
-void macroMap(char in) {
-
-  /*
-  Formatting:
-
-    case '<CHAR>':
-      active = "<MACRO NAME>";
-      <MACRO KEYBOARD/MOUSE FUNCTIONS>
-      break;  
-  */
-
-  //NOTE  cases 'LU' and 'LD' change layers.
-  //      layer keys can be assigned in the software.
-
-  switch (in)
-  {
-  //macro functions
-  case 'C':
-    active = "my macro!";
-    writeOut("yahoo.com");
-    break;
-
-  case 'D':
-    active = "my macro!";
-    writeOut("duckduckgo.com");
-    break;
-
-  //special functions (layers)
-
-  case 'A':
-    if (layer == maxLayer)
-    {
-      layer = 0;
-    } else {
-      layer++;
-    }
-    u8g2.clearBuffer();
-    macroSel(1);
-    break;
-
-  case 'B':
-    if (layer == 0)
-    {
-      layer = maxLayer;
-    } else {
-      layer--;
-    }
-    u8g2.clearBuffer();
-    macroSel(2);
-    break;
-  
-  default:
-    break;
-  }
-
-  active = "";
 }
 
 void note(int freq) {
