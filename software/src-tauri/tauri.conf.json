@@ -13,7 +13,8 @@
   "tauri": {
     "allowlist": {
       "fs": {
-        "scope": ["$RESOURCE/*"]
+        "all": true,
+        "scope": ["$APPDATA/*", "$RESOURCE/*"]
       },
       "shell": {
         "scope": [
@@ -68,7 +69,7 @@
         "depends": []
       },
       "externalBin": [
-        "./arduino-cli"
+        "../src-tauri/arduino-cli"
       ],
       "icon": [
         "icons/32x32.png",
@@ -87,7 +88,9 @@
         "signingIdentity": null
       },
       "resources": [
-        "./main.ino"
+        "./main.ino",
+        "./init1.ino",
+        "./init2.ino"
       ],
       "shortDescription": "",
       "targets": "all",

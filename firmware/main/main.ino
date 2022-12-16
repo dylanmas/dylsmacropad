@@ -25,7 +25,7 @@ U8G2_SSD1306_128X64_NONAME_F_4W_SW_SPI u8g2(U8G2_R0, 15, 14, 9, 10, 16); //[full
 
 // SECTION - PROGRAM EDITABLE - DO NOT EDIT THIS COMMENT
 
-//NOTE - Macro names live here:
+//NOTE - Macro names live here: 
 String namesTable[4][4] = {
   {"Photoshop", "EAGLE", "Cut", "SelAll"},
   {"Cut", "Copy", "Paste", "End"},
